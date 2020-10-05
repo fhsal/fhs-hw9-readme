@@ -12,13 +12,13 @@ Table of Contents:
   - [GitHub repository](#github-repository)
   - [Questions](#questions)
 
-# Installation Instructions:  undefined
+## Installation Instructions:  undefined
 
-# Usage:  undefined 
+## Usage:  undefined 
 
-# Licensing Information:  APACHE
+## Licensing Information:  APACHE
 
-# GitHub repository:  sadfsaf
+## GitHub repository:  sadfsaf
 
-# Questions I can be reached at gggg, all inquiries will be handled on a best-effort basis.  We make every effort
+## Questions I can be reached at gggg, all inquiries will be handled on a best-effort basis.  We make every effort
 to respond within 48 hours. 
