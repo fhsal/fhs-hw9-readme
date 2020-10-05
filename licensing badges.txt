@@ -1,0 +1,5 @@
+https://img.shields.io/badge/license-Unlimited-green
+
+https://img.shields.io/badge/license-Limited-yellow
+
+https://img.shields.io/badge/license-Restricted-orange
