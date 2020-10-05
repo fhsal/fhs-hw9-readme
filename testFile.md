@@ -11,28 +11,28 @@ Table of Contents:
 - [Licensing](#licensing-type)
 - [Contributions](#contribution)
 - [Testing](#testing)
-- [GitHub-profile](#username)
-- [Questions](#email)
+- [GitHub-profile](#github-profile)
+- [Questions](#questions)
 
-##Description:  
+##Description  
 adfadsfadsf 
 
 ##Installation Instructions:  
 adfadfads
 
-##Usage:  
+##Usage 
 adsfadsfasd 
 
-##Licensing Type:  
+##Licensing Type  
 MIT
 
-##Contributions:  
+##Contributions  
 adfadsfasd
 
-##Licensing Type:  
+##Licensing Type 
 MIT
 
-##GitHub profile:  
+##GitHub profile  
 adfadsfa
 
 ##Questions
