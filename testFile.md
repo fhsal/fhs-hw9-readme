@@ -14,27 +14,35 @@ Table of Contents:
 - [GitHub-profile](#github-profile)
 - [Questions](#questions)
 
-##Description  
+## Description
+
 adfadsfadsf 
 
-##Installation Instructions:  
+## Installation Instructions
+
 adfadfads
 
-##Usage 
+## Usage 
+
 adsfadsfasd 
 
-##Licensing Type  
+## Licensing Type  
+
 MIT
 
-##Contributions  
+## Contributions
+
 adfadsfasd
 
-##Licensing Type 
+## Licensing Type 
+
 MIT
 
-##GitHub profile  
+## GitHub profile
+
 adfadsfa
 
-##Questions
+## Questions
+
 I can be reached at adfadfasd, all inquiries will be handled on a best-effort basis.  We make every effort
 to respond within 48 hours. 
