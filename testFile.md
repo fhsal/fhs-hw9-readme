@@ -10,7 +10,7 @@ Table of Contents:
   - [Contribution Guidelines](#contribution-guidelines)
   - [Testing](#testing)
   - [GitHub repository](#github-repository)
-  - [Questions](#questions)
+  - [Questions](#questions:)
 
 # Installation Instructions:  undefined
 
