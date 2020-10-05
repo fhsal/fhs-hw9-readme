@@ -15,34 +15,26 @@ Table of Contents:
 - [Questions](#questions)
 
 ## Description
-
 adfadsfadsf 
 
 ## Installation Instructions
-
 adfadfads
 
 ## Usage 
-
 adsfadsfasd 
 
 ## Licensing Type  
-
 MIT
 
 ## Contributions
-
 adfadsfasd
 
 ## Licensing Type 
-
 MIT
 
 ## GitHub profile
-
 adfadsfa
 
 ## Questions
-
 I can be reached at adfadfasd, all inquiries will be handled on a best-effort basis.  We make every effort
 to respond within 48 hours. 
