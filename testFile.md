@@ -4,13 +4,13 @@ Project Title :  sss
 
 Table of Contents:   
 
-    [Installation Instructions](#installation-instuctions)
-    [Usage](#usage)
-    [Licensing](#licensing-information)
-    [Contribution Guidelines](#contribution-guidelines)
-    [Testing](#testing)
-    [GitHub repository](#username)
-    [Questions](#email)
+  - [Installation Instructions](#installation-instuctions)
+  - [Usage](#usage)
+  - [Licensing](#licensing-information)
+  - [Contribution Guidelines](#contribution-guidelines)
+  - [Testing](#testing)
+  - [GitHub repository](#username)
+  - [Questions](#email)
 
 Installation Instructions:  undefined
 
