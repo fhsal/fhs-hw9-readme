@@ -22,27 +22,27 @@ Table of Contents:
 - [Questions](#email)
 
 
-##Description
+## Description  
 adfadfsd 
 
-##Installation Instructions  
+## Installation Instructions  
 afadfasdfadsfadsf
 
-##Usage
+## Usage
 adfadsfd 
 
-##Licensing Type:  
+## Licensing Type:  
 APACHE
 
-##Contributions:  
+## Contributions:  
 adfadfa
 
-##Licensing Type:  
+## Licensing Type:  
 APACHE
 
-##GitHub profile:  
+## GitHub profile:  
 adfadsfdsfsda
 
-##Questions
+## Questions
 I can be reached at adfadsfsadf, all inquiries will be handled on a best-effort basis.  We make every effort
 to respond within 48 hours. 
