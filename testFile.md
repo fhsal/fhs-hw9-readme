@@ -19,26 +19,30 @@ Project Title :  adfadfadf        [![License](https://img.shields.io/badge/Licen
 
 adfadfsd 
 
-## Installation Instructions 
+## Installation Instructions
 
 afadfasdfadsfadsf
 
 ## Usage
 adfadsfd 
 
-## Licensing Type:  
+## Licensing Type 
 
 APACHE
 
-## Contributions:  
+## Contributions
+
 adfadfa
 
-## Licensing Type:  
+## Licensing Type
+
 APACHE
 
-## GitHub profile:  
+## GitHub profile
+
 adfadsfdsfsda
 
 ## Questions
+
 I can be reached at adfadsfsadf, all inquiries will be handled on a best-effort basis.  We make every effort
 to respond within 48 hours. 
