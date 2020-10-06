@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-
 const writeFileAsync = util.promisify(fs.writeFile);
+var badge;
 
 function promptUser() {
   return inquirer.prompt([
@@ -17,90 +17,119 @@ function promptUser() {
       message: "What is the Title of your project?"
     },
     {
+      type: "input",
+      name: "description",
+      message: "please provide a description of your application",
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "enter usage information for your app"
+    }, 
+    {
+      type: "input",
+      name: "contribution",
+      message: "enter information regarding contributors to your app"
+    }, 
+    {
       type: "list",
       name: "licensing",
       message: "what type of licencing for this package?",
       choices: ['GNU', 'APACHE', 'BSD', 'MIT']
+    },   
+    {
+      type: "input",
+      name: "installation",
+      message: "enter the installation instructions for your app"
+    }, 
+    {
+      type: "input",
+      name: "testing",
+      message: "how is testing to be performed for the application?",
     },
     {
       type: "input",
-      name: "userName",
-      message: "What is your GitHub username?"
+      name: "gitHub",
+      message: "What is your GitHub profile?"
     },
-    {
-      type: "input",
-      name: "toc",
-      message: "what are the items in your table of contents?"
-    },
-      
-    // {
-    //   type: "input",
-    //   name: "github",
-    //   message: "Enter your GitHub Username"
-    // },
     {
       type: "input",
       name: "email",
-      message: "Enter your email."
+      message: "Enter your email"
     }
-  ]);
+  ])
 }
 
-var badge
-var licenceChoice
-
-function getLicense (answers){
-
-  if(answers.license == 'GNU'){ 
-    
-  badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)';
-    }
-  else if(answers.license =='APACHE'){
-    badge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
-  }
-  else if(answers.license =='BSD'){
-    badge = '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
-  }
-  else if(answers.license =='MIT'){
-    badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-  }
-
-  console.log(badge)
-  };
 
 
 function generateContent(answers) {
   return `
 
-Project Title :  ${answers.title}                     
+Project Title :  ${answers.title}        ${badge}             
+=================================
 
-Table of Contents:   
+Table of Contents: 
 
-    [Installation Instructions](#installation-instuctions)
-    [Usage](#usage)
-    [Licensing](#licensing-information)
-    [Contribution Guidelines](#contribution-guidelines)
-    [Testing](#testing)
-    [GitHub repository](#username)
-    [Questions](#email)
+- [Appliction Description](#description)
 
-Installation Instructions:  ${answers.installation}
+- [Installation Instructions](#installation-instuctions)
 
-Usage:  ${answers.usage} 
+- [Usage](#usage)
 
-Licensing Information:  ${answers.licensing}
+- [Licensing](#licensing-type)
 
-GitHub repository:  ${answers.userName}
+- [Contributions](#contribution)
 
-Questions: I can be reached at ${answers.email}, all inquiries will be handled on a best-effort basis.  We make every effort
+- [Testing](#testing)
+
+- [GitHub-profile](#username)
+
+- [Questions](#email)
+
+
+##Description
+${answers.description} 
+
+##Installation Instructions  
+${answers.installation}
+
+##Usage
+${answers.usage} 
+
+##Licensing Type:  
+${answers.licensing}
+
+##Contributions:  
+${answers.contribution}
+
+##Licensing Type:  
+${answers.licensing}
+
+##GitHub profile:  
+${answers.gitHub}
+
+##Questions
+I can be reached at ${answers.email}, all inquiries will be handled on a best-effort basis.  We make every effort
 to respond within 48 hours. 
 `;
 }
 
 promptUser()
   .then(function(answers) {
-    const text = generateContent(answers);
+    if (answers.licensing == 'GNU'){
+        badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)';
+        ;}
+    else if(answers.licensing =='APACHE'){
+        badge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+        ;}
+    else if(answers.licensing =='BSD'){
+        badge = '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
+        ;}
+    else if(answers.licensing =='MIT'){
+        badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+        ;};
 
+    const text = generateContent(answers);
     return writeFileAsync("testFile.md", text);
   })
   .then(function() {
