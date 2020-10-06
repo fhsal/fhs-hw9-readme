@@ -13,11 +13,11 @@ Table of Contents:
 
 - [Licensing](#licensing-type)
 
-- [Contributions](#contribution)
+- [Contributions](#contributions)
 
 - [Testing](#testing)
 
-- [GitHub-profile](#github)
+- [GitHub-profile](#github-profile)
 
 - [Questions](#questions)
 
@@ -37,6 +37,10 @@ akjfkjhakjdhfkjahdfa
 ## Licensing Type
 
 MIT
+
+## Testing
+
+akjdhfakljdhfklajhdf
 
 ## Contributions
 
