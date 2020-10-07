@@ -1,6 +1,6 @@
 
 
-Project Title :  Bedrock Quarry Upgrade, v2.0        [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)             
+Project Title :  Bedrock Quarry Upgrade Phase II        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)             
 =================================
 
 Table of Contents: 
@@ -24,32 +24,32 @@ Table of Contents:
 
 ## Description
 
-modernize the brotosaurus rock lifting apparatas 
+Improve the efficiency of the brontosaurus rock lifting appparatus 
 
 ## Installation Instructions
 
-only install at night 
+Install while dinosaurs are sleeping 
 
 ## Usage
 
-use carefully and only by trained dinosaur riders 
+use carefully, feed the dinosaurs first and follow licensing 
 
 ## Licensing Type
 
-APACHE
+MIT - A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 ## Contributions
 
-Wilma, Betty, Barney, BamBam and Pebbles
+Barney, Wilma, Betty, BamBam, Pebbles
 
 ## Testing
 
-lift small rocks at first and then increase to 20 tons, 3 tons at a time
+start with small rocks and then increase to 20 tons, 3 tons at a time
 
 ## GitHub profile
 
-[link](http://bedrock.com
+[link](http://github.com/flinstone/
 
 ## Questions
-I can be reached at fred@quarry.rocks, all inquiries will be handled on a best-effort basis.  We make every effort
+I can be reached at fred@bedrock.com, all inquiries will be handled on a best-effort basis.  We make every effort
 to respond within 48 hours. 

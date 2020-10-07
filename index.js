@@ -1,8 +1,13 @@
+// loading required node packages
+
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
 var badge;
+var licenseText;
+
+// function to prompt user for readMe content
 
 function promptUser() {
   return inquirer.prompt([
@@ -60,7 +65,7 @@ function promptUser() {
   ])
 }
 
-
+// function to generate content of readMe file using template literals and formatted with markdown tags 
 
 function generateContent(answers) {
   return `
@@ -101,7 +106,7 @@ ${answers.usage}
 
 ## Licensing Type
 
-${answers.licensing}
+${answers.licensing} - ${licenseText}
 
 ## Contributions
 
@@ -121,19 +126,26 @@ to respond within 48 hours.
 `;
 }
 
+// calling function to prompt user for inputs and including logic to parse the license type choices to insert into readMe template
+// output saved in "sampleReadMe" file 
+
 promptUser()
   .then(function(answers) {
     if (answers.licensing == 'GNU'){
         badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)';
+        licenseText = 'Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.'
         ;}
     else if(answers.licensing =='APACHE'){
         badge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+        licenseText = 'A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.'
         ;}
     else if(answers.licensing =='BSD'){
         badge = '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
+        licenseText = 'A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-Clause. Both have very minute differences to the MIT license.'
         ;}
     else if(answers.licensing =='MIT'){
         badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+        licenseText = 'A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.'
         ;};
 
     const text = generateContent(answers);
