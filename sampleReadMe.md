@@ -48,7 +48,7 @@ start with small rocks and then increase to 20 tons, 3 tons at a time
 
 ## GitHub profile
 
-[link](http://github/fred/
+GitHub profile [link](http://github/fred/)
 
 ## Questions
 I can be reached at fflinstone@bedrock.com, all inquiries will be handled on a best-effort basis.  We make every effort
