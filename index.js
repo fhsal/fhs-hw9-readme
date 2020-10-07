@@ -118,7 +118,7 @@ ${answers.testing}
 
 ## GitHub profile
 
-[link](${answers.gitHub}
+GitHub profile [link](${answers.gitHub})
 
 ## Questions
 I can be reached at ${answers.email}, all inquiries will be handled on a best-effort basis.  We make every effort
