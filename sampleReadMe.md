@@ -1,6 +1,6 @@
 
 
-Project Title :  Bedrock Quarry Upgrade Phase II        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)             
+Project Title :  Bedrock Quarry Upgrade, Phase II        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)             
 =================================
 
 Table of Contents: 
@@ -24,15 +24,15 @@ Table of Contents:
 
 ## Description
 
-Improve the efficiency of the brontosaurus rock lifting appparatus 
+Improving the efficiency of the brontosaurus rock lifting operations 
 
 ## Installation Instructions
 
-Install while dinosaurs are sleeping 
+Install while dinosaurs are asleep
 
 ## Usage
 
-use carefully, feed the dinosaurs first and follow licensing 
+use carefully, feed the dinosaurs first and follow licensing  
 
 ## Licensing Type
 
@@ -48,8 +48,8 @@ start with small rocks and then increase to 20 tons, 3 tons at a time
 
 ## GitHub profile
 
-[link](http://github.com/flinstone/
+[link](http://github/fred/
 
 ## Questions
-I can be reached at fred@bedrock.com, all inquiries will be handled on a best-effort basis.  We make every effort
+I can be reached at fflinstone@bedrock.com, all inquiries will be handled on a best-effort basis.  We make every effort
 to respond within 48 hours. 
